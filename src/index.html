@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="font-poppins bg-[#F9F9F9]">
+    <main class="h-screen grid grid-cols-1 lg:grid-cols-[300px_1fr]">
+      <aside class="h-full border-r border-[#D9DBE9]">
+        <a href="/">
+          <img src="./assests/logo.svg" alt="logo" class="py-6 px-4" />
+        </a>
+        <menu class="space-y-4 py-6 font-bold text-xl leading-8 tracking-[1]">
+          <li
+            class="flex items-center px-6 py-4 gap-4 border-l-4 border-primary"
+          >
+            <div
+              class="w-[30px] h-[30px] bg-primary rounded-[5px] flex justify-center items-center"
+            >
+              <img src="./assests/search.svg" alt="search" />
+            </div>
+            <a href="/" class="text-dark-300"> Home</a>
+          </li>
+          <li class="flex items-center px-6 py-4 gap-4">
+            <img src="./assests/heart1.svg" alt="love" />
+            <a href="#" class="text-black opacity-[43%]">Favorites</a>
+          </li>
+        </menu>
+      </aside>
+      <section class="h-full lg:px-10 md:px-5 px-2">
+        <!-- HIRE DEVELOPER -->
+        <section class="py-10 space-y-5">
+          <h1
+            class="font-bold text-[2rem] leading-[34px] tracking-[1px] text-dark-300"
+          >
+            Hire Top Developer in your local area for
+          </h1>
+          <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+            <!-- ITEM 1 -->
+            <div class="border p-2 relative rounded-[0.625rem]">
+              <img src="./assests/1.png" alt="Donmineos" />
+
+              <div class="flex justify-between items-center pt-10 pb-3 px-3">
+                <div>
+                  <p class="font-bold text-[0.75rem">Donmineos</p>
+
+                  <span class="text-[0.625rem] font-medium"> ₦30,000 </span>
+                </div>
+                <button class="text-primary text-[0.75rem] font-bold">
+                  Hire
+                </button>
+              </div>
+              <div
+                class="bg-white w-[35px] h-[32px] rounded-[0.625rem] absolute top-4 right-4 flex items-center justify-center"
+              >
+                <img
+                  src="./assests/heart-svgrepo-com 1.svg"
+                  alt="love"
+                  width="15px"
+                  height="12.49px"
+                />
+              </div>
+              <img
+                src="./assests/profile 1.svg"
+                alt="profile icon"
+                class="h-[44px] w-[44px] absolute top-[54%] left-4"
+              />
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>
